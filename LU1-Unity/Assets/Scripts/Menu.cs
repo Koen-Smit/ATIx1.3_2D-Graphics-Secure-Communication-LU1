@@ -6,6 +6,7 @@ public class Menu : MonoBehaviour
 
     public void OpenMenu()
     {
+        //opent settings menu
         panel.gameObject.SetActive(true);
     }
 
@@ -14,3 +15,5 @@ public class Menu : MonoBehaviour
         panel.gameObject.SetActive(false);
     }
 }
+
+
