@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScherm.unity
     guid: 804bd013981037e438b8354c819740a1
   - enabled: 1
+    path: Assets/Scenes/GegevensInvoer.unity
+    guid: 285ff8a6fa02ce343835fef6360aa75b
+  - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: e0e82c4cd18f4384581ca7c3b4bca032
   - enabled: 1
     path: Assets/Scenes/Module 1.unity
     guid: c739122138865b844adad73be0c06fd9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Kleuren-palette.unity
     guid: 3107b83c7c3e18c49a6a718cd9a6a59d
   m_configObjects:
