@@ -6,7 +6,6 @@ public class Menu : MonoBehaviour
 
     public void OpenMenu()
     {
-        //opent settings menu
         panel.gameObject.SetActive(true);
     }
 
