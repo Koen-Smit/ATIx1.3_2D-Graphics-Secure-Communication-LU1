@@ -9,7 +9,7 @@ public class ModuleHandler : MonoBehaviour
     public GameObject[] modulePanels;
     public Button[] moduleButtons;
     private int activeModule = -1;
-    private Color defaultColor = new Color(0.725f, 1.0f, 1.0f); // #616A6A
+    private Color defaultColor = new Color(0.2902f, 0.5647f, 0.8863f); // #616A6A
     private Color selectedColor = new Color(1.0f, 1.0f, 1.0f); // #CEF4FA
 
     void Start()
