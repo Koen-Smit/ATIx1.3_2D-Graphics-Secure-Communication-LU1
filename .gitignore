@@ -464,21 +464,7 @@ Assets/StreamingAssets/*
 [Mm]emoryCaptures/
 UserSettings/
 
-# Visual Studio / JetBrains Rider
-.vs/
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.opendb
-*.VC.db
+
 
 # Other
 *.apk
