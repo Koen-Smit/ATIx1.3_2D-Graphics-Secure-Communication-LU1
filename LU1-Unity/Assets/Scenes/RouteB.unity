@@ -222,7 +222,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -509,11 +509,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1451788208}
+  m_Father: {fileID: 2044749435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: 35}
+  m_AnchoredPosition: {x: 2, y: 105.979996}
   m_SizeDelta: {x: 810.54, y: 183.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &228421507
@@ -536,11 +536,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Op deze pagina doorloop je je eigen gipsreis en leer je alles over hoe
-    je goed voor jezelf en je gips zorgt! \n\nIn deze gipsreis ontdek je handige
-    tips, leuke weetjes, en krijg je antwoorden op vragen die jij en je ouders misschien
-    hebben. Als je elk onderdeel goed afrondt, verdien je een sticker! Dus waar wacht
-    je nog op? Ga snel aan de slag en leer alles over je gipsbehandeling."
+  m_text: 'Op deze pagina doorloop je je eigen operatie- en gipsreis en leer je alles
+    over hoe je goed voor jezelf en je gips zorgt na de operatie!
+
+
+    In deze reis
+    ontdek je handige tips, leuke weetjes, en krijg je antwoorden op vragen die jij
+    en je ouders misschien hebben over de operatie en het herstel met gips. Als je
+    elk onderdeel goed afrondt, verdien je een sticker! Dus waar wacht je nog op?
+    Ga snel aan de slag en leer alles over je operatie en hoe je het beste voor je
+    gips zorgt tijdens het herstel.
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -654,7 +662,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 544.7, y: -285.43}
-  m_SizeDelta: {x: 365.83, y: 490.15}
+  m_SizeDelta: {x: 365.83, y: 514.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241580962
 MonoBehaviour:
@@ -914,7 +922,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 544.13, y: -283.72}
-  m_SizeDelta: {x: 366.97, y: 493.57}
+  m_SizeDelta: {x: 366.97, y: 514.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275685225
 MonoBehaviour:
@@ -988,8 +996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: 45.54}
-  m_SizeDelta: {x: 1044.51, y: 381.13}
+  m_AnchoredPosition: {x: 38, y: -47.43}
+  m_SizeDelta: {x: 1044.51, y: 567.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279884561
 MonoBehaviour:
@@ -1064,7 +1072,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 546.99, y: -283.33}
-  m_SizeDelta: {x: 374.96, y: 498.13}
+  m_SizeDelta: {x: 374.96, y: 514.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334994534
 MonoBehaviour:
@@ -1927,7 +1935,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: De weken met gips
+  m_text: 'Opnieuw aan de slag '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2297,7 +2305,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2799,10 +2807,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: In deze module leer je hoe je goed voor je gips zorgt.              We
-    gaan het hebben over dingen zoals douchen, hoe je je gips leuk kunt versieren
-    en andere handige tips om je gips schoon en droog te houden. Laten we ontdekken
-    hoe je het beste met je gips om kunt gaan!
+  m_text: "Wat super goed en stoer dat je de operatie hebt gedaan! Daar mag je echt
+    trots op zijn, je bent een kanjer! Na de operatie word je naar een kamer gebracht
+    om rustig wakker te worden. Het is normaal om je moe of verward te voelen. Het
+    zorgteam zorgt ervoor dat je geen pijn hebt. Je krijgt uitleg over hoe je voor
+    je arm moet zorgen, bijvoorbeeld met gips of een spalk. Als alles goed is, mag
+    je naar huis en krijg je tips voor thuis.\n\nJe hebt het geweldig gedaan \u2013
+    nu begint je herstel!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -3054,8 +3065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 539.57, y: -284.29004}
-  m_SizeDelta: {x: 376.1, y: 492.43}
+  m_AnchoredPosition: {x: 558, y: -272}
+  m_SizeDelta: {x: 376.1, y: 514.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786233311
 MonoBehaviour:
@@ -3077,7 +3088,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7279358218014391273, guid: 83b5adc109114724d86d2a45cb0610e8, type: 3}
+  m_Sprite: {fileID: -1396951578377968832, guid: 8c5f135fbdb326644b3e3b780eca27b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3496,7 +3507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Laatste controle
+  m_text: Vervolg afspraak
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3523,8 +3534,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4233,8 +4244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.00001, y: 70}
-  m_SizeDelta: {x: 1044.51, y: 332.21}
+  m_AnchoredPosition: {x: 38.00001, y: 11.54}
+  m_SizeDelta: {x: 1044.51, y: 449.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175465362
 MonoBehaviour:
@@ -4377,7 +4388,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4632,7 +4643,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4732,12 +4743,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: De komende weken zul je je gips misschien nog veel dragen. Dat betekent
-    dat je wat dingen anders zult doen dan normaal, bijvoorbeeld op school, met je
-    hobby's of tijdens het sporten. Het kan even wennen zijn, maar geen zorgen! Je
-    kunt nog steeds veel doen, alleen op een andere manier. Misschien moet je wat
-    extra hulp vragen of je gips goed beschermen. In deze module kijken we hoe je
-    toch actief kunt blijven en hoe je om kunt gaan met je gips.
+  m_text: "Na de operatie zul je misschien een tijdje gips dragen. Dit betekent dat
+    je sommige dingen anders zult doen dan normaal, bijvoorbeeld op school, met je
+    hobby's of tijdens het sporten. Het kan even wennen zijn, maar maak je geen zorgen!
+    Je kunt nog steeds veel doen, alleen op een andere manier.         Misschien
+    heb je wat extra hulp nodig of moet je je gips goed beschermen. In deze module
+    kijken we hoe je actief kunt blijven, hoe je je activiteiten kunt aanpassen en
+    hoe                   je om kunt gaan met je gips. \n\nBespreek met je school
+    en ouders welke aanpassingen      nodig zijn tijdens je herstel. Met de juiste
+    steun en aanpassingen kom je er helemaal doorheen!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -5133,8 +5147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.00003, y: 88.94}
-  m_SizeDelta: {x: 1044.51, y: 294.34}
+  m_AnchoredPosition: {x: 38.00003, y: 20.62}
+  m_SizeDelta: {x: 1044.51, y: 430.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408103316
 MonoBehaviour:
@@ -5278,15 +5292,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1896009967}
-  - {fileID: 228421506}
+  m_Children: []
   m_Father: {fileID: 2044749435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: 66}
-  m_SizeDelta: {x: 929.12, y: 499.71}
+  m_AnchoredPosition: {x: 22, y: 23.28}
+  m_SizeDelta: {x: 929.12, y: 585.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451788209
 MonoBehaviour:
@@ -5481,7 +5493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Terugkijk op je bezoek in het ziekenhuis
+  m_text: Voorbereiden op je operatie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -5613,7 +5625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 96}
+  m_AnchoredPosition: {x: 20, y: 117}
   m_SizeDelta: {x: 912.75, y: 183.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1534680288
@@ -5636,11 +5648,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: In deze module kijken we terug op je ziekenhuisbezoek.           Je hebt
-    waarschijnlijk veel informatie gekregen over wat er is gebeurd nadat je je bot
-    brak en hoe het gips is aangebracht.   We hebben een kort filmpje voor je, zodat
-    je alles nog eens rustig kunt bekijken. Laten we samen teruggaan naar dat moment
-    en alles nog een keer doornemen!
+  m_text: 'In deze module kijken we samen naar hoe je je kunt voorbereiden op je
+    operatie. Je hebt waarschijnlijk gehoord dat je een operatie krijgt voor je botbreuk.
+    Dat kan natuurlijk voor wat spanning zorgen, en dat is helemaal begrijpelijk.
+    We gaan je stap voor stap uitleggen wat je kunt doen om je goed voor te bereiden,
+    zodat je weet wat je kunt verwachten.
+
+
+    Je moet waarschijnlijk bijvoorbeeld
+    voor een korte                   tijd gaan "slapen" tijdens de operatie. Op deze
+    manier                 voel je geen pijn en is het snel voorbij.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -5753,7 +5770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -19.999992}
+  m_AnchoredPosition: {x: -0.0000076293945, y: -5}
   m_SizeDelta: {x: -12.97, y: -14.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551183868
@@ -5776,7 +5793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hoe zorg je voor je gips?
+  m_text: Herstel na je operatie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -6209,8 +6226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 539.57, y: -284.29}
-  m_SizeDelta: {x: 376.1, y: 492.43}
+  m_AnchoredPosition: {x: 562, y: -274}
+  m_SizeDelta: {x: 376.1, y: 514.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605051715
 MonoBehaviour:
@@ -6283,6 +6300,8 @@ RectTransform:
   m_Children:
   - {fileID: 1573426828}
   - {fileID: 1344341275}
+  - {fileID: 1874187753}
+  - {fileID: 1731091612}
   m_Father: {fileID: 2044749435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6316,7 +6335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.52331793, g: 0.9245283, b: 0.9245283, a: 0.5529412}
+  m_Color: {r: 0.25490198, g: 0.5764706, b: 0.6392157, a: 0.69411767}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6439,7 +6458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37.00003, y: 378}
+  m_AnchoredPosition: {x: 15, y: 378}
   m_SizeDelta: {x: 772.43, y: 81.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1684830477
@@ -6462,7 +6481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hoe zorg je goed voor je gips?
+  m_text: Herstel na de operatie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -6541,6 +6560,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684830475}
   m_CullTransparentMesh: 1
+--- !u!1 &1731091611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1731091612}
+  - component: {fileID: 1731091614}
+  - component: {fileID: 1731091613}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1731091612
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731091611}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1641280537}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -387, y: 460}
+  m_SizeDelta: {x: 445.82, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1731091613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731091611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: U bevind zich bij route B
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4293038153
+  m_fontColor: {r: 0.28627452, g: 0.5647059, b: 0.8862746, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1731091614
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731091611}
+  m_CullTransparentMesh: 1
 --- !u!1 &1732762716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,8 +6730,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 540.14, y: -281.44}
-  m_SizeDelta: {x: 374.96, y: 498.13}
+  m_AnchoredPosition: {x: 560, y: -283}
+  m_SizeDelta: {x: 374.96, y: 514.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732762718
 MonoBehaviour:
@@ -6598,7 +6753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1396951578377968832, guid: 8c5f135fbdb326644b3e3b780eca27b9, type: 3}
+  m_Sprite: {fileID: 7945000285444127680, guid: d70fa9dbb2a646d4c9f7ad8beb070d8d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6842,8 +6997,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 53
+  m_fontSizeBase: 53
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7078,7 +7233,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7224,7 +7379,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7324,7 +7479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Terugkijk ziekenhuis
+  m_text: uitleg operatie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -7402,6 +7557,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870219247}
+  m_CullTransparentMesh: 1
+--- !u!1 &1874187752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1874187753}
+  - component: {fileID: 1874187755}
+  - component: {fileID: 1874187754}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1874187753
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874187752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1641280537}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -377.26, y: 457}
+  m_SizeDelta: {x: 661.49, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1874187754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874187752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.63529414, g: 0.8941177, b: 0.72156864, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -5668518402485374812, guid: 48e71a9d8de4e334c97f758caa94e486, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1874187755
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874187752}
   m_CullTransparentMesh: 1
 --- !u!1 &1881521648
 GameObject:
@@ -7514,12 +7744,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1451788208}
+  m_Father: {fileID: 2044749435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23.945011, y: 183}
-  m_SizeDelta: {x: 772.43, y: 81.48}
+  m_AnchoredPosition: {x: -1.9450073, y: 246.89}
+  m_SizeDelta: {x: 772.43, y: 61.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896009968
 MonoBehaviour:
@@ -7541,7 +7771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start-scherm
+  m_text: Route B
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -7654,7 +7884,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -9.999992}
+  m_AnchoredPosition: {x: -5.9999924, y: -10.999992}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1937240343
@@ -7677,7 +7907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: De weken    met gips
+  m_text: Opnieuw aan de slag
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -7704,8 +7934,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 53
+  m_fontSizeBase: 53
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8398,6 +8628,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1451788208}
+  - {fileID: 1896009967}
+  - {fileID: 228421506}
   - {fileID: 795673395}
   - {fileID: 1641280537}
   m_Father: {fileID: 1204296758}
