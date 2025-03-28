@@ -2,13 +2,13 @@
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
+using Microsoft.Extensions.DependencyInjection;
 public static class Scopes
 {
     public static void AddScopes(this IServiceCollection services, string connectionString)
     {
-        //services.AddScoped<IEnvironmentRepository>(sp =>
-        //    new EnvironmentRepository(connectionString));
-
+        services.AddScoped<IPatientRepository>(sp =>
+            new PatientRepository(connectionString));
 
         services.AddScoped<IAccountRepository>(sp =>
         {
@@ -27,8 +27,8 @@ public static class Scopes
                ValidateIssuer = true,
                ValidateAudience = true,
                ValidateLifetime = true,
-               ValidIssuer = "LU2-WebApi",
-               ValidAudience = "LU2-WebApi",
+               ValidIssuer = "LU1-WebApi",
+               ValidAudience = "LU1-WebApi",
                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(connectionString))
            };
        });
