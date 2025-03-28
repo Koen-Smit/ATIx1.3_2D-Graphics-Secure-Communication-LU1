@@ -18,20 +18,17 @@ public class AccountRepository : IAccountRepository
 
     public async Task<Result?> RegisterUser(AccountRequest request)
     {
-        if (string.IsNullOrEmpty(request.Email))
-            return Result.Failure("Email must be provided.");
+        if (string.IsNullOrEmpty(request.UserName))
+            return Result.Failure("Username must be provided.");
 
         if (string.IsNullOrEmpty(request.Password) || request.Password.Length < 10)
             return Result.Failure("Password does not meet the requirements.");
 
-        var existingUser = await _userManager.FindByEmailAsync(request.Email);
+        var existingUser = await _userManager.FindByNameAsync(request.UserName);
         if (existingUser != null)
-            return Result.Failure("Email is already in use.");
+            return Result.Failure("Username is already in use.");
 
-        var randomDigits = new Random().Next(100000, 999999);
-        var userName = request.Email.Split('@')[0] + randomDigits;
-
-        var user = new AppUser { Email = request.Email, UserName = userName };
+        var user = new AppUser { UserName = request.UserName };
         var result = await _userManager.CreateAsync(user, request.Password);
         if (!result.Succeeded)
             return Result.Failure(string.Join(", ", result.Errors.Select(e => e.Description)));
@@ -51,28 +48,27 @@ public class AccountRepository : IAccountRepository
                 Message = "User is already logged in."
             };
 
-        if (string.IsNullOrEmpty(request.Email) || string.IsNullOrEmpty(request.Password))
+        if (string.IsNullOrEmpty(request.UserName) || string.IsNullOrEmpty(request.Password))
             return new LoginResponse
             {
-                Message = "Email and password must be provided."
+                Message = "Username and password must be provided."
             };
 
-        var user = await _userManager.FindByEmailAsync(request.Email);
+        var user = await _userManager.FindByNameAsync(request.UserName);
         if (user == null)
             return new LoginResponse
             {
-                Message = "Invalid email or password."
+                Message = "Invalid username or password."
             };
-
-        var result = await _signInManager.PasswordSignInAsync(user.Email!, request.Password, false, false);
+        var result = await _signInManager.PasswordSignInAsync(request.UserName, request.Password, false, false);
         if (!result.Succeeded)
             return new LoginResponse
             {
-                Message = "Invalid email or password."
+                Message = "Invalid username or password."
             };
 
         var tokenGenerator = new JwtTokenGenerator(_connectionString);
-        var token = tokenGenerator.GenerateToken(user.Email!);
+        var token = tokenGenerator.GenerateToken(request.UserName);
         return new LoginResponse
         {
             Message = "Login successful!",

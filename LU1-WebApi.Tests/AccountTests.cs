@@ -28,7 +28,7 @@ public class AccountControllerTests
     [TestMethod]
     public async Task Register_ReturnsOk_WhenRegistrationSucceeds()
     {
-        var request = new AccountRequest { Email = "test@example.com", Password = "Test@12345" };
+        var request = new AccountRequest { UserName = "testuser", Password = "Test@12345" };
         _mockAccountRepo.Setup(repo => repo.RegisterUser(request))
                         .ReturnsAsync(Result.Success("Registration successful"));
 
@@ -43,7 +43,7 @@ public class AccountControllerTests
     [TestMethod]
     public async Task Register_ReturnsBadRequest_WhenRegistrationFails()
     {
-        var request = new AccountRequest { Email = "test@example.com", Password = "Test@12345" };
+        var request = new AccountRequest { UserName = "testuser", Password = "Test@12345" };
         _mockAccountRepo.Setup(repo => repo.RegisterUser(request))
                         .ReturnsAsync(Result.Failure("Error occurred"));
 
