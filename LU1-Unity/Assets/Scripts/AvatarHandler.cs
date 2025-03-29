@@ -65,11 +65,44 @@ public class AvatarHandler : MonoBehaviour
         }
     }
 
+
     private void OnModuleReceived(APIResponse response)
     {
-        if (response.Success)
-            SceneManager.LoadScene(2);
+        if (response.Success && response.Data != null)
+        {
+            try
+            {
+                Patient responseData = JsonUtility.FromJson<Patient>(response.Data.ToString());
+
+                if (responseData != null)
+                {
+                    switch (responseData.behandelplan)
+                    {
+                        case "A":
+                            SceneManager.LoadScene("RouteA");
+                            break;
+                        case "B":
+                            SceneManager.LoadScene("RouteB");
+                            break;
+                        default:
+                            Debug.LogError("Onbekend behandelplan: " + responseData.behandelplan);
+                            break;
+                    }
+                }
+                else
+                {
+                    Debug.LogError("Fout bij deserialiseren van API-response");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("JSON Parsing Error: " + ex.Message);
+            }
+        }
     }
+
+
+
 
     public void onDateChanged()
     {
