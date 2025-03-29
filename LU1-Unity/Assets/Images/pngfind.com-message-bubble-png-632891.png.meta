@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngfind.com-message-bubble-png-632891_0: -7363864625894001255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
