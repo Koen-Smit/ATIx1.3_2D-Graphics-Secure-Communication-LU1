@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kleur_gips_aanbrengen_0: 5261509252298511905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

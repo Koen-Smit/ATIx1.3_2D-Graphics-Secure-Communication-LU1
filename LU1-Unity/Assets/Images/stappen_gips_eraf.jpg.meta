@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stappen_gips_eraf_0: 999017617259459523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

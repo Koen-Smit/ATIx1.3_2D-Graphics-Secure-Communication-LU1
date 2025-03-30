@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Oscar_Smile_Cast_0: 1660874862995136603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

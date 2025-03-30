@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gips_eraf_knippen_0: 2696996275880103612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

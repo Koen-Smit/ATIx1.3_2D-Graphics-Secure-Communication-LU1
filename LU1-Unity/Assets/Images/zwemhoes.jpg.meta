@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zwemhoes_0: 5131272929948441453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
