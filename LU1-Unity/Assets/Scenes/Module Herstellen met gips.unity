@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34509805, g: 0.76862746, b: 0.44705883, a: 1}
+  m_Color: {r: 0.28627452, g: 0.5647059, b: 0.8862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -704,7 +704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -500}
+  m_AnchoredPosition: {x: -12, y: -478}
   m_SizeDelta: {x: 139914.53, y: 84594.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954051598
@@ -734,8 +734,8 @@ MonoBehaviour:
     Herstellen met gips kan lastig zijn, maar als je goed voor jezelf zorgt, ben
     je snel weer beter! \r\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -759,8 +759,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4500
-  m_fontSizeBase: 4500
+  m_fontSize: 4000
+  m_fontSizeBase: 4000
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1177,8 +1177,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289451158
-  m_fontColor: {r: 0.5882353, g: 0.8313726, b: 0.67058825, a: 1}
+    rgba: 4294967224
+  m_fontColor: {r: 0.72156864, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1394,8 +1394,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289451158
-  m_fontColor: {r: 0.5882353, g: 0.8313726, b: 0.67058825, a: 1}
+    rgba: 4294967224
+  m_fontColor: {r: 0.72156864, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1573,7 +1573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225, y: -200}
+  m_AnchoredPosition: {x: 230, y: -173}
   m_SizeDelta: {x: 139914.53, y: 84594.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1763759662
@@ -1602,8 +1602,8 @@ MonoBehaviour:
     raakt, anders moet je terug naar de dokter. Gezond eten en genoeg drinken helpen
     je bot sneller te genezen.\r\n\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1627,8 +1627,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4500
-  m_fontSizeBase: 4500
+  m_fontSize: 4000
+  m_fontSizeBase: 4000
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

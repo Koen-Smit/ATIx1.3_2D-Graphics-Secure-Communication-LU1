@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      het-gebouw-van-amphia_0: -1153778660060054577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
