@@ -727,12 +727,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Je mag nog steeds spelen, maar wees voorzichtig! Te veel bewegen of vallen
-    kan ervoor zorgen dat je bot niet goed herstelt. \r\nOmdat je minder kunt bewegen,
-    kunnen je spieren slap aanvoelen. Dit is normaal! \r\n\r\nJe mag je gips ook
-    versieren! Gebruik stickers of speciale stiften om het leuker te maken. Herstellen
-    met gips kan lastig zijn, maar als je goed voor jezelf zorgt, ben je snel weer
-    beter! \r\n\n"
+  m_text: "Je mag nog steeds leuke dingen doen, zoals tekenen, boeken lezen of spelletjes
+    spelen. Ga niet sporten waar je veel moet rennen of springen! Te veel bewegen
+    of vallen kan ervoor zorgen dat je bot niet goed herstelt. \r\r\n\r\nJe mag je
+    gips ook versieren! Gebruik stickers of speciale stiften om het leuker te maken.
+    Herstellen met gips kan lastig zijn, maar als je goed voor jezelf zorgt, ben
+    je snel weer beter! \r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
