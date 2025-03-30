@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d3778a186f9efe84f85243cfa7e7ab17
+guid: a60cc83f9254002458ef14572fe96b6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 670262794838471264
-    second: fotovooroperatie_0
+      213: -4344393936792065486
+    second: v4-460px-Take-a-Shower-in-a-Cast-Step-1-Version-2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fotovooroperatie_0
+      name: v4-460px-Take-a-Shower-in-a-Cast-Step-1-Version-2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 541
-        height: 646
+        width: 478
+        height: 514
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 062f180f5704d4900800000000000000
-      internalID: 670262794838471264
+      spriteID: 23ae5296bbc95b3c0800000000000000
+      internalID: -4344393936792065486
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      fotovooroperatie_0: 670262794838471264
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
