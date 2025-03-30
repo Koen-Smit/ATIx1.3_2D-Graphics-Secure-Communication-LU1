@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e2e4cc07e759e4042ba10faac55fffa2
+guid: a129ed7f1db4bb343956cdd28ee517de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9077916850271076828
-    second: tekenen_op_gips2_0
+      213: 3190444876378511942
+    second: Selection52_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tekenen_op_gips2_0
+      name: Selection52_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1104
-        height: 828
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42e3f07b8b2c40280800000000000000
-      internalID: -9077916850271076828
+      spriteID: 64a910c16bcb64c20800000000000000
+      internalID: 3190444876378511942
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tekenen_op_gips2_0: -9077916850271076828
+      Selection52_0: 3190444876378511942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

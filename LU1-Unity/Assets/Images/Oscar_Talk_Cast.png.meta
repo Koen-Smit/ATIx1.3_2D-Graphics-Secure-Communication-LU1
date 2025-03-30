@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Oscar_Talk_Cast_0: -5353303594659157643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
