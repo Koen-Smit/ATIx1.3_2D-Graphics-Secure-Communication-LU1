@@ -924,14 +924,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1659653579}
-        m_TargetAssemblyTypeName: ModuleHandler, Assembly-CSharp
+      - m_Target: {fileID: 1189787535}
+        m_TargetAssemblyTypeName: StickerHandler, Assembly-CSharp
         m_MethodName: LoadModule
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1827,14 +1827,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1659653579}
-        m_TargetAssemblyTypeName: ModuleHandler, Assembly-CSharp
+      - m_Target: {fileID: 1189787535}
+        m_TargetAssemblyTypeName: StickerHandler, Assembly-CSharp
         m_MethodName: LoadModule
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2918,8 +2918,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1659653579}
-        m_TargetAssemblyTypeName: ModuleHandler, Assembly-CSharp
+      - m_Target: {fileID: 1189787535}
+        m_TargetAssemblyTypeName: StickerHandler, Assembly-CSharp
         m_MethodName: LoadModule
         m_Mode: 3
         m_Arguments:
@@ -4577,8 +4577,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1659653579}
-        m_TargetAssemblyTypeName: ModuleHandler, Assembly-CSharp
+      - m_Target: {fileID: 1189787535}
+        m_TargetAssemblyTypeName: StickerHandler, Assembly-CSharp
         m_MethodName: LoadModule
         m_Mode: 3
         m_Arguments:
@@ -5339,6 +5339,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176285773}
   m_CullTransparentMesh: 1
+--- !u!1 &1189787534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1189787536}
+  - component: {fileID: 1189787535}
+  m_Layer: 0
+  m_Name: StickerHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1189787535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189787534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4df72b98285da8499e60e10dbf78ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPanel: {fileID: 2044749434}
+  modulePanels:
+  - {fileID: 1827092445}
+  - {fileID: 557015768}
+  - {fileID: 43464058}
+  - {fileID: 645609124}
+  - {fileID: 1881521648}
+  moduleButtons:
+  - {fileID: 1086185654}
+  - {fileID: 600503772}
+  - {fileID: 375071976}
+  - {fileID: 1998531432}
+  - {fileID: 245274604}
+--- !u!4 &1189787536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189787534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19611.896, y: 379.14108, z: -208.04259}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204296754
 GameObject:
   m_ObjectHideFlags: 0
@@ -6554,7 +6611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -28.790009, y: 415.95}
+  m_AnchoredPosition: {x: -28.790009, y: 415.94995}
   m_SizeDelta: {x: -321.94, y: -915.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408407864
@@ -7811,70 +7868,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641280536}
   m_CullTransparentMesh: 1
---- !u!1 &1659653577
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1659653578}
-  - component: {fileID: 1659653579}
-  m_Layer: 5
-  m_Name: Modulehandler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1659653578
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659653577}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.00925926, y: 0.00925926, z: 0.00925926}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -86939.35, y: -52197.574}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1659653579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659653577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53b00e65f9df76a43af00fd6f94503ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moduleTitle: {fileID: 1524309142}
-  startPanel: {fileID: 2044749434}
-  modulePanels:
-  - {fileID: 1827092445}
-  - {fileID: 557015768}
-  - {fileID: 363589364}
-  - {fileID: 43464058}
-  - {fileID: 645609124}
-  - {fileID: 1881521648}
-  moduleButtons:
-  - {fileID: 1086185654}
-  - {fileID: 600503772}
-  - {fileID: 600503772}
-  - {fileID: 375071976}
-  - {fileID: 1998531432}
-  - {fileID: 245274604}
 --- !u!1 &1684830475
 GameObject:
   m_ObjectHideFlags: 0
@@ -8956,7 +8949,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9862,14 +9855,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1659653579}
-        m_TargetAssemblyTypeName: ModuleHandler, Assembly-CSharp
+      - m_Target: {fileID: 1189787535}
+        m_TargetAssemblyTypeName: StickerHandler, Assembly-CSharp
         m_MethodName: LoadModule
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10408,6 +10401,6 @@ SceneRoots:
   - {fileID: 1165601098}
   - {fileID: 1204296758}
   - {fileID: 1962712686}
-  - {fileID: 1659653578}
+  - {fileID: 1189787536}
   - {fileID: 1638363054}
   - {fileID: 1079501471}
