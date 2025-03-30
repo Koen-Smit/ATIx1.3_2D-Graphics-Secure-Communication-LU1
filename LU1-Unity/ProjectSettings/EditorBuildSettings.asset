@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Module 2 - Route B.unity
     guid: 63c2fd5b21149c34fae6dddbd11a5877
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Module 3 - Route B.unity
     guid: 5679c7155baa72749845cacd4c75e483
   m_configObjects:
