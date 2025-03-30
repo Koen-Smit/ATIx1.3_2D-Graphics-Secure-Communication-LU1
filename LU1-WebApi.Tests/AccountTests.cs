@@ -24,7 +24,7 @@ public class AccountControllerTests
         _controller = new AccountController(_mockAccountRepo.Object, _mockAuthService.Object, _mockUserManager.Object);
     }
 
-    // Unit test: Controleert of de registratie succesvol is en een OK-status retourneert.
+    // Unit test: Checks if registration is successful and returns OK status.
     [TestMethod]
     public async Task Register_ReturnsOk_WhenRegistrationSucceeds()
     {
@@ -39,7 +39,7 @@ public class AccountControllerTests
         Assert.AreEqual("Registration successful", okResult.Value);
     }
 
-    // Unit test: Controleert of een mislukte registratie een BadRequest retourneert.
+    // Unit test: Checks if a failed registration returns BadRequest.
     [TestMethod]
     public async Task Register_ReturnsBadRequest_WhenRegistrationFails()
     {
@@ -54,7 +54,7 @@ public class AccountControllerTests
         Assert.AreEqual("Error occurred", badRequestResult.Value);
     }
 
-    // Unit test: Controleert of uitloggen succesvol is en een OK-status retourneert.
+    // Unit test: Checks if logout is successful and returns OK status.
     [TestMethod]
     public async Task Logout_ReturnsOk_WhenLogoutSucceeds()
     {
@@ -68,7 +68,7 @@ public class AccountControllerTests
         Assert.AreEqual("Logout successful", okResult.Value);
     }
 
-    // Unit test: Controleert of een ongeauthenticeerde gebruiker geen gebruikersnaam kan opvragen.
+    // Unit test: Checks if an unauthenticated user cannot retrieve their username.
     [TestMethod]
     public async Task GetUserName_ReturnsUnauthorized_WhenUserIsNotAuthenticated()
     {
@@ -82,7 +82,7 @@ public class AccountControllerTests
         Assert.AreEqual("User is not authenticated or invalid user ID.", unauthorizedResult.Value);
     }
 
-    // Unit test: Controleert of een niet-bestaande gebruiker een NotFound-status retourneert.
+    // Unit test: Checks if a non-existent user returns a NotFound status.
     [TestMethod]
     public async Task GetUserName_ReturnsNotFound_WhenUserDoesNotExist()
     {

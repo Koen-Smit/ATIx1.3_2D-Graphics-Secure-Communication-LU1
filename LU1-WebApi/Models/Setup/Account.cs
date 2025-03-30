@@ -3,8 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 public class AccountRequest
 {
-    [EmailAddress(ErrorMessage = "Voer een geldig e-mailadres in.")]
-    public string? Email { get; set; }
+    [Required]
     public string? UserName { get; set; }
 
     [Required]
@@ -19,10 +18,11 @@ public class AppUser : IdentityUser
     public override string? Email { get; set; }
     public override string? NormalizedEmail { get; set; }
 }
+
 public class LoginRequest
 {
     [Required]
-    public string? UserNameOrEmail { get; set; }
+    public string? UserName { get; set; }
 
     [Required]
     public string? Password { get; set; }
