@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oefening fysio_0: -3585161530779122353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

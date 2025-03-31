@@ -43,7 +43,7 @@ public class OnClickHandler : MonoBehaviour
 
     public void MarkDone(int module)
     {
-        int randomSticker = UnityEngine.Random.Range(1, 5);
+        int randomSticker = UnityEngine.Random.Range(1, 7);
         string url = $"/patient/mark-module-done?moduleId={module}&stickerId={randomSticker}";
         APIManager.Instance.PostRequest(url, "", OnMarkDoneResponse);
     }
