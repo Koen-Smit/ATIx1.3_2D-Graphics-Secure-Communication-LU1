@@ -463,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -179.18, y: -133.18}
+  m_AnchoredPosition: {x: -156, y: -133.18}
   m_SizeDelta: {x: 158192, y: 87865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &600610203
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5058824, g: 0.7803922, b: 0.95294124, a: 0.627451}
+  m_Color: {r: 0.5058824, g: 0.7803922, b: 0.95294124, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -705,7 +705,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234, y: -528}
+  m_AnchoredPosition: {x: -231.82, y: -530}
   m_SizeDelta: {x: 139914.53, y: 84594.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954051598
@@ -738,8 +738,8 @@ MonoBehaviour:
     weken mag het gips eraf en kun je je arm weer voorzichtig gaan bewegen en oefenen,
     zodat hij weer sterk wordt!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -763,8 +763,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4500
-  m_fontSizeBase: 4500
+  m_fontSize: 4000
+  m_fontSizeBase: 4000
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 28994.656, y: 0, z: -124.05432, w: 10075.731}
+  m_margin: {x: 28994.656, y: 0, z: -2409.8354, w: 10075.731}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1575,7 +1575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -782.56, y: -307.9}
+  m_AnchoredPosition: {x: -768, y: -314.87}
   m_SizeDelta: {x: 354.8775, y: 450.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741288261
@@ -1650,7 +1650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -206.75, y: -156}
+  m_AnchoredPosition: {x: -183.57, y: -156}
   m_SizeDelta: {x: 139914.53, y: 84594.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1763759662
@@ -1684,8 +1684,8 @@ MonoBehaviour:
     genezen. Soms blijft dit materiaal in je arm zitten, maar in sommige gevallen
     wordt het later weer verwijderd.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1709,8 +1709,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4500
-  m_fontSizeBase: 4500
+  m_fontSize: 4000
+  m_fontSizeBase: 4000
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -124.05432, w: 10075.731}
+  m_margin: {x: 0, y: 0, z: -124.05432, w: 19218.873}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
