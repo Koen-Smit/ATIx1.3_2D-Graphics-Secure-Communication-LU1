@@ -12,7 +12,7 @@ public class StickerHandler : MonoBehaviour
     private int activeModule = -1;
     private Color defaultColor = new Color(0.2902f, 0.5647f, 0.8863f); // #616A6A
     private Color selectedColor = new Color(1.0f, 1.0f, 1.0f); // #CEF4FA
-    private Color stickerAppliedColor = new Color(0.9f, 0.7f, 0.2f, 0); // Custom color for sticker-applied buttons
+    private Color stickerAppliedColor = new Color(0.9f, 0.7f, 0.2f, 0);
     private HashSet<int> stickerAppliedButtons = new HashSet<int>();
 
     void Start()
@@ -32,7 +32,7 @@ public class StickerHandler : MonoBehaviour
                 if (buttonIndex >= 0 && buttonIndex < moduleButtons.Length)
                 {
                     ChangeImage(buttonIndex, moduleSticker.stickerID);
-                    stickerAppliedButtons.Add(buttonIndex); // Mark button as having a sticker
+                    stickerAppliedButtons.Add(buttonIndex);
                 }
             }
         }
@@ -87,7 +87,7 @@ public class StickerHandler : MonoBehaviour
                 TextMeshProUGUI buttonText = moduleButtons[buttonIndex].GetComponentInChildren<TextMeshProUGUI>();
                 if (buttonText != null)
                 {
-                    buttonText.color = stickerAppliedColor; // Change text color for sticker-applied button
+                    buttonText.color = stickerAppliedColor;
                 }
             }
             else
@@ -119,7 +119,7 @@ public class StickerHandler : MonoBehaviour
 
             if (stickerAppliedButtons.Contains(level))
             {
-                moduleButtons[level].GetComponentInChildren<TextMeshProUGUI>().color = stickerAppliedColor; // Keep sticker-applied color
+                moduleButtons[level].GetComponentInChildren<TextMeshProUGUI>().color = stickerAppliedColor;
             }
             else
             {
@@ -139,7 +139,7 @@ public class StickerHandler : MonoBehaviour
             {
                 if (stickerAppliedButtons.Contains(System.Array.IndexOf(moduleButtons, btn)))
                 {
-                    buttonText.color = new Color(buttonText.color.r, buttonText.color.g, buttonText.color.b, 0f); // Make text transparent if sticker applied
+                    buttonText.color = new Color(buttonText.color.r, buttonText.color.g, buttonText.color.b, 0f);
                 }
                 else
                 {
