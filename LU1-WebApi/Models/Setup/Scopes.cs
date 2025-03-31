@@ -10,6 +10,9 @@ public static class Scopes
         services.AddScoped<IPatientRepository>(sp =>
             new PatientRepository(connectionString));
 
+        services.AddScoped<IDagboekRepository>(sp =>
+            new DagboekRepository(connectionString));
+
         services.AddScoped<IAccountRepository>(sp =>
         {
             var userManager = sp.GetRequiredService<UserManager<AppUser>>();
