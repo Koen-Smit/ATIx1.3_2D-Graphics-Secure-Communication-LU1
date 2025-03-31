@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Module Herstel na je operatie.unity
     guid: 0761799dba78d0347bc23412038977d9
+  - enabled: 1
+    path: Assets/Scenes/Dagboek.unity
+    guid: d36b6cf7d8865b0409abb1fcd739ff9c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
