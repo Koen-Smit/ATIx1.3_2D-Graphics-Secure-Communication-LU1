@@ -86,7 +86,7 @@ public class PatientRepository : IPatientRepository
     {
         const string checkQuery = @"
     SELECT COUNT(1)
-    FROM [LU1-WebApi].[dbo].[PatientModuleVoortgang]
+    FROM PatientModuleVoortgang
     WHERE PatientID = @PatientID AND ModuleID = @ModuleID";
 
         using var connection = new SqlConnection(_connectionString);
@@ -103,7 +103,7 @@ public class PatientRepository : IPatientRepository
         }
 
         const string insertQuery = @"
-    INSERT INTO [LU1-WebApi].[dbo].[PatientModuleVoortgang] (PatientID, ModuleID, StickerID)
+    INSERT INTO PatientModuleVoortgang (PatientID, ModuleID, StickerID)
     VALUES (@PatientID, @ModuleID, @StickerID)";
 
         var result = await connection.ExecuteAsync(insertQuery, new
@@ -125,7 +125,7 @@ public class PatientRepository : IPatientRepository
     {
         const string query = @"
         SELECT ModuleID, StickerID
-        FROM [LU1-WebApi].[dbo].[PatientModuleVoortgang]
+        FROM PatientModuleVoortgang
         WHERE PatientID = @PatientID";
 
         using var connection = new SqlConnection(_connectionString);
