@@ -855,8 +855,8 @@ MonoBehaviour:
     naar het ziekenhuis, waar de dokter kijkt of je bot goed is genezen. \nMisschien
     wordt er nog een r\xF6ntgenfoto gemaakt om zeker te weten dat alles weer op de
     juiste plek zit.\n\nAls je bot sterk genoeg is, mag het gips eraf! \nAls dat
-    nog niet zo is, dan moet je nog een afspraak maken.\nMisschien moet je dus nog
-    even met je gips rondlopen,\n maar als je goed voor jezelf en je gips zorgt komt
+    nog niet zo is, dan moet je nog een afspraak maken. Misschien moet je dus nog
+    even met je gips rondlopen, maar als je goed voor jezelf en je gips zorgt komt
     het helemaal goed!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1049,7 +1049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: -41}
+  m_AnchoredPosition: {x: -93, y: -44}
   m_SizeDelta: {x: 52458.406, y: 18479.746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1147790276
@@ -1482,14 +1482,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.28627452, g: 0.5647059, b: 0.8862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2330551525440907198, guid: 1f1b07d23f45cac4ea73914c139a1253, type: 3}
+  m_Sprite: {fileID: 7103356512838429099, guid: a79d5926e6d0d684990eb1310580651c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

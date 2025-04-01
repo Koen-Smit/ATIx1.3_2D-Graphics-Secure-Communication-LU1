@@ -467,14 +467,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.28627452, g: 0.5647059, b: 0.8862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2330551525440907198, guid: 1f1b07d23f45cac4ea73914c139a1253, type: 3}
+  m_Sprite: {fileID: 7103356512838429099, guid: a79d5926e6d0d684990eb1310580651c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -526,7 +526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: -550}
+  m_AnchoredPosition: {x: -288, y: -517}
   m_SizeDelta: {x: 139914.53, y: 84594.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685328875
@@ -550,7 +550,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Om goed te kunnen zien wat er met je aan de hand was, werd er een r\xF6ntgenfoto
-    gemaakt. \nDit is een soort speciale foto die de botten laat zien.     \nDe dokter
+    gemaakt. Dit is een soort speciale foto die de botten         laat zien. De dokter
     kon op deze foto precies zien waar en \nhoe erg de breuk was.\r\n\r\nNu weet
     je hoe alles is gegaan op de Spoedeisende Hulp!"
   m_isRightToLeft: 0
@@ -740,7 +740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: -94}
+  m_AnchoredPosition: {x: 193, y: -94}
   m_SizeDelta: {x: 549.7282, y: 565.5798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761823274
@@ -1478,7 +1478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.57, y: -136}
+  m_AnchoredPosition: {x: -246.57, y: -154}
   m_SizeDelta: {x: 139914.53, y: 84594.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2033695475
@@ -1501,12 +1501,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Toen je aankwam bij de Spoedeisende Hulp, moest je je eerst aanmelden
-    bij de balie. \nDaar vroeg iemand naar je naam en werden belangrijke gegevens
-    genoteerd. \nDit helpt de dokters om jou snel te kunnen helpen!\nDaarna kwam
-    je bij een verpleegkundige. Die keek hoe erg je pijn had en hoe snel je geholpen
-    moest worden. \nMisschien kreeg je een speciale siroop of een pil om de pijn
-    minder te maken, zodat je je wat beter voelde en minder last had van de pijn.\n\n\n"
+  m_text: 'Toen je aankwam bij de Spoedeisende Hulp, moest je je eerst aanmelden
+    bij de balie. Daar vroeg iemand naar je naam en werden belangrijke gegevens genoteerd.
+    Dit helpt de dokters om jou snel te kunnen helpen! Daarna kwam je bij een verpleegkundige.
+    Die keek hoe erg je pijn had en hoe snel je geholpen moest worden. Misschien
+    kreeg je een speciale siroop of een pil om de pijn minder te maken, zodat je
+    je wat beter voelde en minder last had van de pijn.
+
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
