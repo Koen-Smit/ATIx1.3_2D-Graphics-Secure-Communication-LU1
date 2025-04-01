@@ -15,6 +15,8 @@ public class StickerHandler : MonoBehaviour
     private Color stickerAppliedColor = new Color(0.9f, 0.7f, 0.2f, 0);
     private HashSet<int> stickerAppliedButtons = new HashSet<int>();
 
+
+
     void Start()
     {
         ResetButtonColors();

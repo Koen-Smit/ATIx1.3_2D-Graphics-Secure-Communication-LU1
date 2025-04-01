@@ -8,12 +8,15 @@ public class DagboekHandler : MonoBehaviour
 {
     public GameObject notitiePanel;
     public GameObject notePrefab;
-    public Transform contentPanel;
+    public Transform NotitieContentPanel, AfspraakContentPanel;
     public TMP_InputField inputfield;
 
+    //menu related
+    public GameObject Keuze_frame, Afspraak_frame, Notitie_frame;
     void Start()
     {
         CloseNotitiePanel();
+        OpenKeuze();
         FetchNotes();
     }
 
@@ -25,6 +28,28 @@ public class DagboekHandler : MonoBehaviour
     public void CloseNotitiePanel()
     {
         notitiePanel.SetActive(false);
+    }
+
+    //menu related
+    public void OpenKeuze()
+    {
+        Keuze_frame.SetActive(true);
+        Afspraak_frame.SetActive(false);
+        Notitie_frame.SetActive(false);
+    }
+
+    public void OpenAfspraak()
+    {
+        Keuze_frame.SetActive(false);
+        Afspraak_frame.SetActive(true);
+        Notitie_frame.SetActive(false);
+    }
+
+    public void OpenNotitie()
+    {
+        Keuze_frame.SetActive(false);
+        Afspraak_frame.SetActive(false);
+        Notitie_frame.SetActive(true);
     }
     public void CreateNote()
     {
@@ -58,26 +83,28 @@ public class DagboekHandler : MonoBehaviour
             {
                 if (note == null) continue;
 
-                GameObject noteObject = Instantiate(notePrefab, contentPanel);
+                Transform targetPanel = note.note.Contains("@afspraak") ? AfspraakContentPanel : NotitieContentPanel;
+
+                GameObject noteObject = Instantiate(notePrefab, targetPanel);
                 TMP_Text[] texts = noteObject.GetComponentsInChildren<TMP_Text>();
 
                 foreach (TMP_Text text in texts)
                 {
-                    if (text.name == "tekst") 
+                    if (text.name == "tekst")
                     {
                         text.text = note.note;
                         Debug.Log("Updated tekst: " + note.note);
                     }
-                    else if (text.name == "tijd") 
+                    else if (text.name == "tijd")
                     {
                         text.text = FormatTimestamp(note.timestamp);
                         Debug.Log("Updated tijd: " + note.timestamp);
                     }
                 }
-
             }
         }
     }
+
 
     private string FormatTimestamp(string timestamp)
     {
