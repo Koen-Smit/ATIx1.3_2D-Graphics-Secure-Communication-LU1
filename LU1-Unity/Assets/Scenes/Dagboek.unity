@@ -2702,7 +2702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Terug naar Modules
+  m_text: Terug naar Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2729,8 +2729,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2951,7 +2951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 7}
+  m_AnchoredPosition: {x: -21, y: 7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075209830
@@ -4023,7 +4023,7 @@ GameObject:
   - component: {fileID: 1341568641}
   - component: {fileID: 1341568640}
   m_Layer: 5
-  m_Name: Notitie-knop
+  m_Name: Afspraak_knop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4046,8 +4046,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 399, y: -466.99994}
-  m_SizeDelta: {x: 543.998, y: 164.8}
+  m_AnchoredPosition: {x: 427.5879, y: -466.99994}
+  m_SizeDelta: {x: 601.1738, y: 164.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1341568640
 MonoBehaviour:
@@ -5593,7 +5593,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -447.65, y: -467}
-  m_SizeDelta: {x: 543.998, y: 164.8}
+  m_SizeDelta: {x: 357.2238, y: 164.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642721897
 MonoBehaviour:
@@ -5883,8 +5883,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -813.83984, y: 455.68}
-  m_SizeDelta: {x: 262.8955, y: 128.905}
+  m_AnchoredPosition: {x: -712.35284, y: 455.68}
+  m_SizeDelta: {x: 465.8696, y: 128.905}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756165708
 MonoBehaviour:
@@ -7044,8 +7044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -443.6499, y: -466.99994}
-  m_SizeDelta: {x: 543.998, y: 164.8}
+  m_AnchoredPosition: {x: -519, y: -466.99994}
+  m_SizeDelta: {x: 357.2238, y: 164.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914366062
 MonoBehaviour:
