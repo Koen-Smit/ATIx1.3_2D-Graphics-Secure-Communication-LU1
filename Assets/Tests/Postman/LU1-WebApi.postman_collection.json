@@ -1,0 +1,675 @@
+{
+	"info": {
+		"_postman_id": "87b611ca-6b48-4cf1-a090-627eebbca00a",
+		"name": "LU1-WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42398459"
+	},
+	"item": [
+		{
+			"name": "Gebruiker kan registreren en inloggen met geldig token.",
+			"item": [
+				{
+					"name": "Check of gebruiker als is ingelogd. (mag/kan foutmelding returnen)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_domain}}/account/logout",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"account",
+								"logout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/account/logout",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"account",
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Maak account aan",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var randomName = Math.floor(Math.random() * 100) + 1;\r",
+									"\r",
+									"pm.environment.set(\"randomName\", randomName);\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"password\": \"Test123456!\",\n  \"userName\": \"{{randomName}}\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_domain}}/account/register",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"account",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"password\": \"Ttg{;NxvT*DW\",\n  \"userName\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/account/register",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"account",
+										"register"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Log in met aangemaakte account",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"password\": \"Test123456!\",\n  \"userName\": \"{{randomName}}\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_domain}}/account/login",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"account",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"password\": \"<string>\",\n  \"userName\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/account/login",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"account",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gebruiker kan één patiënt toevoegen en hierna de gegevens weer ophalen",
+			"item": [
+				{
+					"name": "Maak patient aan",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"naam\": \"{{randomName}}\",\n  \"geboortedatum\": \"2000-01-01T21:25:50.988Z\",\n  \"behandelplan\": \"A\",\n  \"arts\": \"{{randomName}}\",\n  \"eersteAfspraak\": \"2000-01-01T21:25:50.988Z\",\n  \"avatarID\": \"2\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_domain}}/patient/create",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"patient",
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"patientID\": \"<uuid>\",\n  \"naam\": \"<string>\",\n  \"geboortedatum\": \"<dateTime>\",\n  \"behandelplan\": \"<string>\",\n  \"arts\": \"<string>\",\n  \"eersteAfspraak\": \"<dateTime>\",\n  \"avatarID\": \"<integer>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/patient/create",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"patient",
+										"create"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Haal net aangemaakte patient op",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{base_url_domain}}/patient/me",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"patient",
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/patient/me",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"patient",
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"patientID\": \"<uuid>\",\n  \"naam\": \"<string>\",\n  \"geboortedatum\": \"<dateTime>\",\n  \"behandelplan\": \"<string>\",\n  \"arts\": \"<string>\",\n  \"eersteAfspraak\": \"<dateTime>\",\n  \"avatarID\": \"<integer>\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gebruiker kan een dagboeknotitie aanmaken en ophalen",
+			"item": [
+				{
+					"name": "Maak een dagboek-notitie aan",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"note\": \"Test notitie\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_domain}}/dagboek/create",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"dagboek",
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"userId\": \"<uuid>\",\n  \"note\": \"<string>\",\n  \"timestamp\": \"<dateTime>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/dagboek/create",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"dagboek",
+										"create"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Haal de dagboek-notities op",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{base_url_domain}}/dagboek/me",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"dagboek",
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/dagboek/me",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"dagboek",
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"userId\": \"<uuid>\",\n    \"note\": \"<string>\",\n    \"timestamp\": \"<dateTime>\"\n  },\n  {\n    \"userId\": \"<uuid>\",\n    \"note\": \"<string>\",\n    \"timestamp\": \"<dateTime>\"\n  }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Een patiënt kan modules voltooien en ophalen",
+			"item": [
+				{
+					"name": "Markeer een module als voltooid",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url_domain}}/patient/mark-module-done?moduleId=1&stickerId=1",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"patient",
+								"mark-module-done"
+							],
+							"query": [
+								{
+									"key": "moduleId",
+									"value": "1"
+								},
+								{
+									"key": "stickerId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/patient/mark-module-done?moduleId=<integer>&stickerId=<integer>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"patient",
+										"mark-module-done"
+									],
+									"query": [
+										{
+											"key": "moduleId",
+											"value": "<integer>"
+										},
+										{
+											"key": "stickerId",
+											"value": "<integer>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Haal voltooide modules op",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{base_url_domain}}/patient/modules",
+							"host": [
+								"{{base_url_domain}}"
+							],
+							"path": [
+								"patient",
+								"modules"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/patient/modules",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"patient",
+										"modules"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"moduleID\": \"<integer>\",\n    \"stickerID\": \"<integer>\"\n  },\n  {\n    \"moduleID\": \"<integer>\",\n    \"stickerID\": \"<integer>\"\n  }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Log de gebruiker uit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_domain}}/account/logout",
+					"host": [
+						"{{base_url_domain}}"
+					],
+					"path": [
+						"account",
+						"logout"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/account/logout",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"account",
+								"logout"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

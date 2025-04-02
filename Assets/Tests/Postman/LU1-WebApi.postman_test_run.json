@@ -1,0 +1,242 @@
+{
+	"id": "1830a6fe-17eb-45db-b3e0-9c469ede900a",
+	"name": "LU1-WebApi",
+	"timestamp": "2025-04-02T21:27:50.791Z",
+	"collection_id": "42398459-87b611ca-6b48-4cf1-a090-627eebbca00a",
+	"folder_id": 0,
+	"environment_id": "42398459-a6524bca-a669-4b08-8be7-f2cca483d783",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-04-02T21:27:48.291Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a27ac1fc-40d8-48fd-8af3-cd777182050d",
+			"name": "Check of gebruiker als is ingelogd. (mag/kan foutmelding returnen)",
+			"url": "https://avansict2227609.azurewebsites.net//account/logout",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				29
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "31ec1bf9-d24b-401d-aedc-9254f3987a7d",
+			"name": "Maak account aan",
+			"url": "https://avansict2227609.azurewebsites.net//account/register",
+			"time": 188,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				188
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3a4c013e-c409-4873-b621-79bb9a272023",
+			"name": "Log in met aangemaakte account",
+			"url": "https://avansict2227609.azurewebsites.net//account/login",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				117
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "71a4760d-cfd9-4a56-bbd4-ee2687f5f8e0",
+			"name": "Maak patient aan",
+			"url": "https://avansict2227609.azurewebsites.net//patient/create",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				38
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "15e96c2d-2b07-4d18-a287-d11d6e97c783",
+			"name": "Haal net aangemaakte patient op",
+			"url": "https://avansict2227609.azurewebsites.net//patient/me",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				27
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3d24757c-9ed1-4747-a097-984a29a3feeb",
+			"name": "Maak een dagboek-notitie aan",
+			"url": "https://avansict2227609.azurewebsites.net//dagboek/create",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d650b2bb-ca06-46cb-a707-75c976a5b5b8",
+			"name": "Haal de dagboek-notities op",
+			"url": "https://avansict2227609.azurewebsites.net//dagboek/me",
+			"time": 468,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				468
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86b3b44f-4512-42e3-ad54-9211c54743bb",
+			"name": "Markeer een module als voltooid",
+			"url": "https://avansict2227609.azurewebsites.net//patient/mark-module-done?moduleId=1&stickerId=1",
+			"time": 274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				274
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "17c7fce2-8228-4c62-9f4b-9ae0927662ca",
+			"name": "Haal voltooide modules op",
+			"url": "https://avansict2227609.azurewebsites.net//patient/modules",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				125
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "941753e8-f53f-4c22-be0d-aaf94d2acbc1",
+			"name": "Log de gebruiker uit",
+			"url": "https://avansict2227609.azurewebsites.net//account/logout",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				26
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1343,
+	"collection": {
+		"requests": [
+			{
+				"id": "a27ac1fc-40d8-48fd-8af3-cd777182050d",
+				"method": "POST"
+			},
+			{
+				"id": "31ec1bf9-d24b-401d-aedc-9254f3987a7d",
+				"method": "POST"
+			},
+			{
+				"id": "3a4c013e-c409-4873-b621-79bb9a272023",
+				"method": "POST"
+			},
+			{
+				"id": "71a4760d-cfd9-4a56-bbd4-ee2687f5f8e0",
+				"method": "POST"
+			},
+			{
+				"id": "15e96c2d-2b07-4d18-a287-d11d6e97c783",
+				"method": "GET"
+			},
+			{
+				"id": "3d24757c-9ed1-4747-a097-984a29a3feeb",
+				"method": "POST"
+			},
+			{
+				"id": "d650b2bb-ca06-46cb-a707-75c976a5b5b8",
+				"method": "GET"
+			},
+			{
+				"id": "86b3b44f-4512-42e3-ad54-9211c54743bb",
+				"method": "POST"
+			},
+			{
+				"id": "17c7fce2-8228-4c62-9f4b-9ae0927662ca",
+				"method": "GET"
+			},
+			{
+				"id": "941753e8-f53f-4c22-be0d-aaf94d2acbc1",
+				"method": "POST"
+			}
+		]
+	}
+}
