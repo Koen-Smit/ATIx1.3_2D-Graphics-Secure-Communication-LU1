@@ -475,3 +475,4 @@ UserSettings/
 crashlytics-build.properties
 *.csproj
 /Assets/Oplevering
+/Assets/GIF/Video
