@@ -474,3 +474,4 @@ UserSettings/
 # Crashlytics generated file
 crashlytics-build.properties
 *.csproj
+/Assets/Oplevering
